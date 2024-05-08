@@ -1,0 +1,99 @@
+html {
+  font-size: 0.8em;
+  background-color: #222;
+  background-image: linear-gradient(
+      25deg,
+      transparent 65%,
+      #1474b8,
+      transparent 70%
+    ),
+    linear-gradient(-25deg, transparent 65%, #1474b8, transparent 70%),
+    linear-gradient(-25deg, transparent 30%, #1474b8, transparent 35%),
+    linear-gradient(25deg, transparent 30%, #1474b8, transparent 35%),
+    linear-gradient(65deg, transparent 65%, #1474b8, transparent 70%),
+    linear-gradient(-65deg, transparent 65%, #1474b8, transparent 70%),
+    linear-gradient(-65deg, transparent 30%, #1474b8, transparent 35%),
+    linear-gradient(65deg, transparent 30%, #1474b8, transparent 35%);
+  background-size: 5em 2em, 5em 2em, 5em 2em, 5em 2em, 5em 2em, 5em 2em, 5em 2em,
+    5em 2em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+.login-form {
+  position: relative;
+  width: 370px;
+  height: auto;
+  padding: 40px 35px 60px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #272727;
+}
+.text {
+  font-size: 30px;
+  color: #08e413;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.text a {
+  color: #f91010;
+}
+form {
+  margin-top: 40px;
+}
+form .field {
+  margin-top: 20px;
+  display: flex;
+}
+.field .fas {
+  height: 50px;
+  width: 60px;
+  color: #868686;
+  font-size: 20px;
+  line-height: 50px;
+  border: 1px solid #444;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(#333, #222);
+}
+
+.field input,
+form button {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333, #222);
+}
+button {
+  margin-top: 30px;
+  border-radius: 5px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.link {
+  margin-top: 25px;
+  color: #fff;
+}
+.link a {
+  color: #5ac3f3;
+  text-decoration: none;
+}
